@@ -61,7 +61,7 @@ architecture  behave of FullAdder is
 		
 	    begin
 		Module_Half1: halfadd port map(a, b, sum_1, carry_1);
-		Module_Half2: halfadd port map(sum_1, c, sum, carry_2) after (100ps);
- 		Module_OrGate: or_gate port map(carry_1, carry_2, carry) after (200ps);
+		Module_Half2: halfadd port map(sum_1, c, sum, carry_2);
+ 		Module_OrGate: or_gate port map(carry_1, carry_2, carry);
 	  end structure; 
 
