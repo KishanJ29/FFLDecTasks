@@ -1,0 +1,32 @@
+
+
+
+1. Design a sequence detector circuit, which detects three or more consecutive 1's in a string of bits coming through an input line.
+
+   Find the state diagram.
+   Determine the type of circuit (Moore or Mealy model).
+   Tabulate state(transition) table of sequence detector.
+   Implement the circuit using D and JK flip flops.
+  
+
+2.Design a digital system with two flip flops, say B and C and one 4 bit binary counter A, in which the individual flip-flops are denoted by A4,A3,A2,A1. A start signal S initiates the system operation by clearing the counter A and flip flop C, and setting flip flop B to one. The counter is then incremented by one starting from the next clock pulse and continues to increment until the operation stop. Counter bits A3 and A4 determine the sequence of operations.
+ If A3 = 0, B is cleared to 0 and the counter continues. 
+ If A3 = 1, B is set to 1 ; then if A4 =0 , the count continues, but if A4 =1 , C is set to 1 on the next clock pulses and the system stops counting.
+ Then if S=0, the system remains in the initial state, but if S=1, the operation cycle repeats.
+a Draw the ASM Chart.
+b.Tabulate the timing sequence.
+ 
+
+
+3.An 8 state ripple counter uses a flip flop with propogation delay of 75 ns. The pulse width of the strobe is 50ms.Find out the frequency of the input signal which can be used for proper operation of counter.
+
+
+4. A certain memory has a capacity of 4Kx8 
+ (i) How many data input and data output lines does it have?
+ (ii)How many address lines does it have ?
+ (iii) What is its capacity in bytes?
+
+5. A microprocessor uses RAM chips of 1024x1 capacity.
+ (i) How many chips will be required and how many address lines will be connected  
+to provide capacity of 1024 bytes.
+ (ii) How many chips will be required to obtain a memory of capacity of 16 Kbytes. 
