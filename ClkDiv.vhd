@@ -27,4 +27,15 @@ architecture RTL of ClkDiv is
 					end if;
 		end process clockcountdivide;  
 end RTL;
- 
+-----------------------------------------------------------------------------------------
+--		Alternate General Method 
+-----------------------------------------------------------------------------------------
+-- 	begin 
+--	   if (count = T/2)
+		count = 0;
+--		DivOut = not(DivOut);
+--	   else
+--		DivOut = DivOut;
+--		count = count + 1;
+--	   end if 
+------------------------------------------------------------------------------------------		
